@@ -1,6 +1,7 @@
 <?php include  __DIR__. '/Movie.php' ;
-    $movie1 = new Movie("The Shawshank Redemption", "Frank Darabont", "Drama", 1994);
-    $movie2 = new Movie("The Wolf of Wall Street", "Martin Scorsese", "Drama", 2013);
+    $genre1 = ['love', 'horror'];
+    $movie1 = new Movie("The Shawshank Redemption", "Frank Darabont", $genre1, 1994);
+    $movie2 = new Movie("The Wolf of Wall Street", "Martin Scorsese", $genre1, 2013);
     var_dump($movie2)
 ?>
 
