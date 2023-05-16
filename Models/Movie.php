@@ -3,7 +3,7 @@
     class Movie{
         private string $title;
         private string $director;
-        private array $genre;
+        private string $genre;
         private int $releaseYear;
 
         // Constructor
